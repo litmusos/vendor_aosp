@@ -81,7 +81,7 @@ function breakfast()
                 variant="userdebug"
             fi
 
-            lunch litmus_$target-$variant
+            lunch aosp_$target-$variant
         fi
     fi
     return $?
