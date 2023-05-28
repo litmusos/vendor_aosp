@@ -1,3 +1,6 @@
+# Litmus Version
+LITMUS_VERSION := thalassa
+
 # Build fingerprint
 ifeq ($(BUILD_FINGERPRINT),)
 BUILD_NUMBER_CUSTOM := $(shell date -u +%H%M)
